@@ -1,0 +1,33 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 20px;
+	font-family: Arial, sans-serif;
+}
+
+#changeGrid {
+	display: block;
+	margin: 0 auto 20px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+}
+#container {
+	width: 960px;
+	height: 960px;
+	margin: auto;
+	border: 1px solid black;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid-square {
+	box-sizing: border-box;
+	border: 1px solid #ddd;
+	background-color: #fff;
+}
